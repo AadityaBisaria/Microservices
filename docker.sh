@@ -1,43 +1,43 @@
-docker login -u yashwanthjavvaji -p Password@
+docker login -u aaditya -p Password@
 
 echo 'auth'
 cd auth
-docker build --network host -t yashwanthjavvaji/auth .
-docker push yashwanthjavvaji/auth
+docker build --network host -t aaditya/auth .
+docker push aaditya/auth
 cd ..
 
 
 echo 'products'
 
 cd products
-docker build --network host -t yashwanthjavvaji/products .
-docker push yashwanthjavvaji/products
+docker build --network host -t aaditya/products .
+docker push aaditya/products
 cd ..
 
 
 echo 'orders'
 cd orders
-docker build --network host -t yashwanthjavvaji/orders .
-docker push yashwanthjavvaji/orders
+docker build --network host -t aaditya/orders .
+docker push aaditya/orders
 cd ..
 
 
 echo 'expiration'
 cd expiration
-docker build --network host -t yashwanthjavvaji/expiration .
-docker push yashwanthjavvaji/expiration
+docker build --network host -t aaditya/expiration .
+docker push aaditya/expiration
 cd ..
 
 
 echo 'payments'
 cd payments
-docker build --network host -t yashwanthjavvaji/payments .
-docker push yashwanthjavvaji/payments
+docker build --network host -t aaditya/payments .
+docker push aaditya/payments
 cd ..
 
 
 echo 'client'
 cd client
-docker build --network host -t yashwanthjavvaji/client .
-docker push yashwanthjavvaji/client
+docker build --network host -t aaditya/client .
+docker push aaditya/client
 cd ..
