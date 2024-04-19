@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('SCM Checkout') {
             steps{
-                git url:'https://github.com/aadityabisaria/microservice.git', branch:'master'
+                git url:'https://github.com/AadityaBisaria/Microservices.git', branch:'master'
             }
         }        
         stage('Build Docker Images') {
